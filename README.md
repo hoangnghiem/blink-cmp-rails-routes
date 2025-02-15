@@ -1,8 +1,8 @@
-# blink-cmp-rails-routse
+# blink-cmp-rails-routes
 
 Adds Ruby on Rails route suggestions as a source for [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
 
-## Installation
+## Installation & Usage
 
 ### lazy.nvim
 
@@ -24,3 +24,10 @@ return {
   },
 }
 ```
+Command:
+```vim
+" Run this command on first installation or any changes in your routes
+:RailsRoutesSync
+```
+## License
+See [License](./LICENSE).
