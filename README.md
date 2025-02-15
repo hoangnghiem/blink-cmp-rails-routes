@@ -22,6 +22,14 @@ return {
           },
         },
       },
+      -- optional: trigger only on C-w
+      keymap = {
+        ["<C-w>"] = {
+          function(cmp)
+            cmp.show({ providers = { "rails_routes" } })
+          end,
+        },
+      },
     },
   },
 }
