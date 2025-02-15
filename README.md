@@ -1,5 +1,7 @@
 # blink-cmp-rails-routes
 
+![Screenshot](assets/screenshot.png)
+
 Adds Ruby on Rails route suggestions as a source for [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
 
 ## Installation & Usage
